@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220">
+  <defs>
+    <linearGradient id="g70" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6EEF9"/>
+      <stop offset="15%" stop-color="#A3D9F5"/>
+      <stop offset="35%" stop-color="#6BB8E8"/>
+      <stop offset="55%" stop-color="#3B82C4"/>
+      <stop offset="75%" stop-color="#1E5A9A"/>
+      <stop offset="100%" stop-color="#0F2B4A"/>
+    </linearGradient>
+    <linearGradient id="g70f" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6EEF9" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#5BA4D9" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0F2B4A" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="220" fill="#FFFFFF"/>
+  <!-- 薄い塗り -->
+  <text x="400" y="130" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="90" font-weight="700" letter-spacing="8" fill="url(#g70f)">UMIDAS</text>
+  <!-- アウトライン -->
+  <text x="400" y="130" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="90" font-weight="700" letter-spacing="8" fill="none" stroke="url(#g70)" stroke-width="2">UMIDAS</text>
+</svg>

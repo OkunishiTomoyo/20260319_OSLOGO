@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220">
+  <defs>
+    <linearGradient id="g64" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6EEF9"/>
+      <stop offset="15%" stop-color="#A3D9F5"/>
+      <stop offset="40%" stop-color="#6BB8E8"/>
+      <stop offset="65%" stop-color="#3B82C4"/>
+      <stop offset="85%" stop-color="#1E5A9A"/>
+      <stop offset="100%" stop-color="#12395F"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="220" fill="#FFFFFF"/>
+  <text x="400" y="122" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="68" font-weight="300" letter-spacing="32" fill="url(#g64)">UMIDAS</text>
+  <line x1="100" y1="142" x2="700" y2="142" stroke="url(#g64)" stroke-width="1.5" opacity="0.35"/>
+</svg>
