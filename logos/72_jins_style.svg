@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="g72" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6EEF9"/>
+      <stop offset="18%" stop-color="#8AD0F0"/>
+      <stop offset="40%" stop-color="#4FA8DB"/>
+      <stop offset="65%" stop-color="#2970B5"/>
+      <stop offset="85%" stop-color="#1B4F8A"/>
+      <stop offset="100%" stop-color="#0F2B4A"/>
+    </linearGradient>
+    <linearGradient id="g72a" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#89CFF0"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- JINS風 — きっちりしたサンセリフ、Iだけ色を変える（水滴ドット） -->
+  <g transform="translate(400, 115)">
+    <text x="-135" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="92" font-weight="800" letter-spacing="2" fill="url(#g72)">UM</text>
+    <!-- I — 特別な色+ドットを水滴に -->
+    <text x="28" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="92" font-weight="800" fill="url(#g72)">I</text>
+    <!-- Iのドットを水滴に上書き -->
+    <rect x="18" y="-68" width="20" height="14" fill="#FFFFFF"/>
+    <path d="M28,-68 C30,-64 36,-54 36,-48 C36,-42 32,-38 28,-38 C24,-38 20,-42 20,-48 C20,-54 26,-64 28,-68Z" fill="url(#g72a)"/>
+    <text x="135" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="92" font-weight="800" letter-spacing="2" fill="url(#g72)">DAS</text>
+  </g>
+</svg>

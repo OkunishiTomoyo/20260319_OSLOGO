@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="g78" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6EEF9"/>
+      <stop offset="15%" stop-color="#A3D9F5"/>
+      <stop offset="35%" stop-color="#6BB8E8"/>
+      <stop offset="55%" stop-color="#3B82C4"/>
+      <stop offset="75%" stop-color="#1E5A9A"/>
+      <stop offset="100%" stop-color="#0F2B4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- H&M風 — セリフ体イタリック、ファッション感 -->
+  <g transform="translate(400, 128)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Playfair Display', 'Georgia', 'Times New Roman', serif" font-size="95" font-weight="700" font-style="italic" letter-spacing="6" fill="url(#g78)">UMIDAS</text>
+  </g>
+</svg>

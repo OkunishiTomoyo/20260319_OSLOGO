@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="g71" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5E8F7"/>
+      <stop offset="20%" stop-color="#7EC8E3"/>
+      <stop offset="45%" stop-color="#4A9BD9"/>
+      <stop offset="70%" stop-color="#2B6CB0"/>
+      <stop offset="100%" stop-color="#163D6E"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- Canon風 — 独自のカスタムセリフ。Aの頂点を丸く -->
+  <g transform="translate(400, 118)">
+    <!-- U -->
+    <path d="M-290,-52 L-290,12 C-290,38 -268,48 -248,48 C-228,48 -206,38 -206,12 L-206,-52"
+          fill="none" stroke="url(#g71)" stroke-width="10" stroke-linecap="round"/>
+    <!-- M -->
+    <path d="M-180,-52 L-180,46 M-180,-52 L-148,20 L-116,-52 M-116,-52 L-116,46"
+          fill="none" stroke="url(#g71)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- I -->
+    <path d="M-88,-52 L-88,46" fill="none" stroke="url(#g71)" stroke-width="10" stroke-linecap="round"/>
+    <!-- D -->
+    <path d="M-60,-52 L-60,46 M-60,-52 C-20,-52 4,-28 4,-3 C4,22 -20,46 -60,46"
+          fill="none" stroke="url(#g71)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- A — 頂点を丸くするCanon風アクセント -->
+    <path d="M38,46 L68,-42 C70,-50 76,-50 78,-42 L108,46 M50,16 L96,16"
+          fill="none" stroke="url(#g71)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- S -->
+    <path d="M148,-38 C140,-52 122,-56 118,-42 C114,-22 156,-18 156,10 C156,38 130,50 116,36"
+          fill="none" stroke="url(#g71)" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>

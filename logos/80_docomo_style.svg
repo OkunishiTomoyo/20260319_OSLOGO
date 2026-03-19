@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="g80" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6EEF9"/>
+      <stop offset="18%" stop-color="#A3D9F5"/>
+      <stop offset="38%" stop-color="#6BB8E8"/>
+      <stop offset="58%" stop-color="#3B82C4"/>
+      <stop offset="78%" stop-color="#1E5A9A"/>
+      <stop offset="100%" stop-color="#0F2B4A"/>
+    </linearGradient>
+    <linearGradient id="g80s" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#89CFF0"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- docomo風 — 小文字+上部に小さなアクセントテキスト -->
+  <g transform="translate(400, 80)">
+    <!-- 上部の小さなテキスト -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" letter-spacing="8" fill="url(#g80s)" opacity="0.7">OPEN SALES</text>
+  </g>
+  <g transform="translate(400, 135)">
+    <!-- メイン文字 -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="82" font-weight="800" letter-spacing="4" fill="url(#g80)">umidas</text>
+  </g>
+</svg>

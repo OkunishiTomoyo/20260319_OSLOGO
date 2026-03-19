@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="g73" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6EEF9"/>
+      <stop offset="15%" stop-color="#A3D9F5"/>
+      <stop offset="35%" stop-color="#6BB8E8"/>
+      <stop offset="55%" stop-color="#3B82C4"/>
+      <stop offset="75%" stop-color="#1E5A9A"/>
+      <stop offset="100%" stop-color="#0F2B4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- SUNTORY風 — 太いサンセリフ+ベースラインに太い下線 -->
+  <g transform="translate(400, 105)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="80" font-weight="900" letter-spacing="12" fill="url(#g73)">UMIDAS</text>
+    <!-- 太いアンダーライン -->
+    <rect x="-248" y="15" width="496" height="6" rx="3" fill="url(#g73)"/>
+  </g>
+</svg>

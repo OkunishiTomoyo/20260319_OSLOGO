@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="g76" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5E8F7"/>
+      <stop offset="30%" stop-color="#6BB8E8"/>
+      <stop offset="60%" stop-color="#2B6CB0"/>
+      <stop offset="100%" stop-color="#0F2B4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- UNIQLO風 — グラデーション背景ボックス+白抜き文字 -->
+  <g transform="translate(400, 100)">
+    <rect x="-268" y="-58" width="536" height="116" rx="8" fill="url(#g76)"/>
+    <text x="0" y="18" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="78" font-weight="900" letter-spacing="10" fill="#FFFFFF">UMIDAS</text>
+  </g>
+</svg>

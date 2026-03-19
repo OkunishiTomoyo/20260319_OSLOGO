@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="g74" x1="0%" y1="0%" x2="100%" y2="15%">
+      <stop offset="0%" stop-color="#C5E8F7"/>
+      <stop offset="25%" stop-color="#7EC8E3"/>
+      <stop offset="50%" stop-color="#4A9BD9"/>
+      <stop offset="75%" stop-color="#2560A0"/>
+      <stop offset="100%" stop-color="#12395F"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- meiji風 — 小文字で丸みのある親しみやすい書体 -->
+  <g transform="translate(400, 125)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="90" font-weight="700" letter-spacing="4" fill="url(#g74)">umidas</text>
+  </g>
+</svg>

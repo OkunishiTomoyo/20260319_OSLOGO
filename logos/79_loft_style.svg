@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="g79" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5E8F7"/>
+      <stop offset="25%" stop-color="#7EC8E3"/>
+      <stop offset="50%" stop-color="#4A9BD9"/>
+      <stop offset="75%" stop-color="#2B6CB0"/>
+      <stop offset="100%" stop-color="#163D6E"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- LoFt風 — 大文字小文字ミックスで遊び心 -->
+  <g transform="translate(400, 128)">
+    <text x="-195" y="0" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="95" font-weight="900" fill="url(#g79)">U</text>
+    <text x="-120" y="8" font-family="'Nunito', 'Quicksand', sans-serif" font-size="70" font-weight="600" fill="url(#g79)">m</text>
+    <text x="-55" y="0" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="95" font-weight="900" fill="url(#g79)">I</text>
+    <text x="-12" y="8" font-family="'Nunito', 'Quicksand', sans-serif" font-size="70" font-weight="600" fill="url(#g79)">d</text>
+    <text x="48" y="0" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="95" font-weight="900" fill="url(#g79)">A</text>
+    <text x="128" y="8" font-family="'Nunito', 'Quicksand', sans-serif" font-size="70" font-weight="600" fill="url(#g79)">s</text>
+  </g>
+</svg>
