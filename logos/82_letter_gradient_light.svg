@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- 細字ウェイト+広い字間。呼吸と余裕 -->
+  <g transform="translate(400, 118)">
+    <text x="-260" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="72" font-weight="300" fill="#0F2B4A">U</text>
+    <text x="-168" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="72" font-weight="300" fill="#1B5A8C">M</text>
+    <text x="-88" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="72" font-weight="300" fill="#3186BE">I</text>
+    <text x="-32" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="72" font-weight="300" fill="#52A3D4">D</text>
+    <text x="52" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="72" font-weight="300" fill="#7EC8E3">A</text>
+    <text x="138" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="72" font-weight="300" fill="#B0DFEF">S</text>
+  </g>
+</svg>

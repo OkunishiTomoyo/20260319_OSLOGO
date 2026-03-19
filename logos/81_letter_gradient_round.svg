@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- 一文字ずつ濃い青→水色。丸ゴシック太字。余裕のある字間 -->
+  <g transform="translate(400, 120)">
+    <text x="-232" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="86" font-weight="700" fill="#0F2B4A">U</text>
+    <text x="-138" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="86" font-weight="700" fill="#1B5A8C">M</text>
+    <text x="-58" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="86" font-weight="700" fill="#3186BE">I</text>
+    <text x="12" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="86" font-weight="700" fill="#52A3D4">D</text>
+    <text x="100" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="86" font-weight="700" fill="#7EC8E3">A</text>
+    <text x="182" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="86" font-weight="700" fill="#B0DFEF">S</text>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- 一文字グラデ + Dを水滴形に（一文字おしゃれ） -->
+  <g transform="translate(400, 120)">
+    <text x="-232" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#0F2B4A">U</text>
+    <text x="-140" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#1B5A8C">M</text>
+    <text x="-62" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#3186BE">I</text>
+    <!-- D → 水滴形にカスタム -->
+    <g transform="translate(18, -25)">
+      <path d="M0,-38 C5,-30 24,-6 24,12 C24,30 14,40 0,40 C-14,40 -24,30 -24,12 C-24,-6 -5,-30 0,-38Z" fill="#52A3D4"/>
+    </g>
+    <text x="108" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#7EC8E3">A</text>
+    <text x="192" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#B0DFEF">S</text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- ミディアムウェイト。中くらいの太さ。最も誠実でバランスが良い -->
+  <g transform="translate(400, 118)">
+    <text x="-240" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="78" font-weight="500" letter-spacing="2" fill="#0F2B4A">U</text>
+    <text x="-155" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="78" font-weight="500" letter-spacing="2" fill="#1B5A8C">M</text>
+    <text x="-78" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="78" font-weight="500" letter-spacing="2" fill="#3186BE">I</text>
+    <text x="-25" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="78" font-weight="500" letter-spacing="2" fill="#52A3D4">D</text>
+    <text x="58" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="78" font-weight="500" letter-spacing="2" fill="#7EC8E3">A</text>
+    <text x="140" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="78" font-weight="500" letter-spacing="2" fill="#B0DFEF">S</text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- 一文字グラデ + Uの底を丸く器のように（一文字おしゃれ） -->
+  <g transform="translate(400, 120)">
+    <!-- U — カスタム。底がぽってり丸い器 -->
+    <path d="M-268,-55 L-268,5 C-268,42 -240,55 -215,55 C-190,55 -162,42 -162,5 L-162,-55"
+          fill="none" stroke="#0F2B4A" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Uの底にちいさなハイライト丸（可愛さ） -->
+    <circle cx="-215" cy="28" r="5" fill="#0F2B4A" opacity="0.2"/>
+    <text x="-100" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#1B5A8C">M</text>
+    <text x="-20" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#3186BE">I</text>
+    <text x="50" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#52A3D4">D</text>
+    <text x="138" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#7EC8E3">A</text>
+    <text x="218" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#B0DFEF">S</text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- 極広字間。余裕を最大限に表現。 -->
+  <g transform="translate(400, 118)">
+    <text x="-290" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="72" font-weight="600" fill="#0F2B4A">U</text>
+    <text x="-182" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="72" font-weight="600" fill="#1B5A8C">M</text>
+    <text x="-82" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="72" font-weight="600" fill="#3186BE">I</text>
+    <text x="8" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="72" font-weight="600" fill="#52A3D4">D</text>
+    <text x="108" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="72" font-weight="600" fill="#7EC8E3">A</text>
+    <text x="200" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="72" font-weight="600" fill="#B0DFEF">S</text>
+  </g>
+</svg>

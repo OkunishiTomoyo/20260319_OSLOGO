@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <rect width="800" height="200" fill="#FFF"/>
+  <!-- 一文字グラデ + Aの横棒を星に（一文字おしゃれ・成功者＝星） -->
+  <g transform="translate(400, 120)">
+    <text x="-232" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#0F2B4A">U</text>
+    <text x="-140" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#1B5A8C">M</text>
+    <text x="-62" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#3186BE">I</text>
+    <text x="8" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#52A3D4">D</text>
+    <!-- A — カスタム。横棒の代わりに小さな星 -->
+    <text x="96" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#7EC8E3">A</text>
+    <!-- Aの横棒を白で消して星に -->
+    <rect x="72" y="-12" width="48" height="11" fill="#FFFFFF"/>
+    <!-- 小さな星 -->
+    <polygon points="96,-6 99,0 106,0 101,4 103,10 96,7 89,10 91,4 86,0 93,0" fill="#7EC8E3"/>
+    <text x="178" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="86" font-weight="700" fill="#B0DFEF">S</text>
+  </g>
+</svg>
