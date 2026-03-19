@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g7" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <linearGradient id="g7b" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <clipPath id="circleClip7">
+      <circle cx="0" cy="0" r="62"/>
+    </clipPath>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+
+  <!-- 円形の中に波 — 溢れ出す海 -->
+  <g transform="translate(195, 170)">
+    <!-- 外円 -->
+    <circle cx="0" cy="0" r="65" fill="none" stroke="#1A365D" stroke-width="3"/>
+
+    <!-- 円内の水面（下半分） -->
+    <g clip-path="url(#circleClip7)">
+      <rect x="-65" y="-5" width="130" height="70" fill="url(#g7)" opacity="0.3"/>
+      <!-- 波 -->
+      <path d="M-70,-5 Q-45,-18 -20,-5 Q5,8 30,-5 Q55,-18 70,-5 L70,70 L-70,70Z" fill="url(#g7)" opacity="0.6"/>
+      <path d="M-70,8 Q-40,-2 -15,8 Q10,18 35,8 Q55,0 70,8 L70,70 L-70,70Z" fill="url(#g7b)" opacity="0.5"/>
+    </g>
+
+    <!-- 溢れ出す水滴（円の外） -->
+    <circle cx="50" cy="-50" r="5" fill="#7EC8E3" opacity="0.7"/>
+    <circle cx="65" cy="-35" r="3.5" fill="#4A9BD9" opacity="0.5"/>
+    <circle cx="35" cy="-58" r="2.5" fill="#7EC8E3" opacity="0.4"/>
+    <circle cx="-45" cy="-52" r="4" fill="#7EC8E3" opacity="0.6"/>
+    <circle cx="-60" cy="-38" r="3" fill="#4A9BD9" opacity="0.4"/>
+  </g>
+
+  <!-- テキスト -->
+  <text x="510" y="160" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="68" font-weight="600" letter-spacing="10" fill="#1A365D" dx="20">UMIDAS</text>
+
+  <!-- サブテキスト -->
+  <text x="530" y="200" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="13" fill="#4A9BD9" letter-spacing="4">溢れ出す、新しい価値</text>
+</svg>

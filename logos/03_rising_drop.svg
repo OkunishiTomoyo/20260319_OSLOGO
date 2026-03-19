@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g3" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="40%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+
+  <!-- ライジングドロップ（逆さ水滴＝上昇する炎のようなフォルム） -->
+  <g transform="translate(200, 180)">
+    <path d="M0,-75 C-8,-70 -35,-30 -35,10 C-35,35 -20,55 0,55 C20,55 35,35 35,10 C35,-30 8,-70 0,-75Z" fill="url(#g3)"/>
+    <!-- 内部のハイライト -->
+    <path d="M0,-50 C-5,-46 -18,-20 -18,8 C-18,22 -10,32 0,32 C10,32 18,22 18,8 C18,-20 5,-46 0,-50Z" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  </g>
+
+  <!-- テキスト UMIDAS -->
+  <text x="480" y="170" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="72" font-weight="700" letter-spacing="8" fill="#1A365D" dx="60">UMIDAS</text>
+
+  <!-- サブテキスト -->
+  <text x="540" y="210" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="13" fill="#4A9BD9" letter-spacing="3">青い熱狂、静かに燃える</text>
+
+  <!-- 下部ライン -->
+  <line x1="310" y1="240" x2="770" y2="240" stroke="url(#g3)" stroke-width="1.5" opacity="0.4"/>
+</svg>

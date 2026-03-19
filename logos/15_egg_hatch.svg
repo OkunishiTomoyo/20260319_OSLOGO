@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g15" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#2B6CB0"/>
+      <stop offset="50%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#7EC8E3"/>
+    </linearGradient>
+    <linearGradient id="g15b" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#A8DEF0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+  <!-- 卵の孵化 — 新しい価値が生まれる瞬間 -->
+  <g transform="translate(190, 175)">
+    <!-- 卵の殻（左半分） -->
+    <path d="M-8,-60 C-35,-55 -50,-20 -50,15 C-50,45 -35,60 -15,65 L-15,20 Q-10,-5 -8,-60Z" fill="url(#g15b)" opacity="0.3"/>
+    <path d="M-8,-60 C-35,-55 -50,-20 -50,15 C-50,45 -35,60 -15,65" fill="none" stroke="#4A9BD9" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 卵の殻（右半分、少し開いている） -->
+    <path d="M8,-60 C35,-55 55,-15 55,18 C55,48 40,62 20,67" fill="none" stroke="#2B6CB0" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 割れ目のギザギザライン -->
+    <path d="M-15,65 L-8,50 L2,65 L12,48 L20,67" fill="none" stroke="#2B6CB0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- 中から出てくる光/生命 -->
+    <circle cx="0" cy="10" r="18" fill="url(#g15)" opacity="0.3"/>
+    <circle cx="0" cy="10" r="10" fill="url(#g15)" opacity="0.5"/>
+    <!-- 上に飛び散る粒子 -->
+    <circle cx="-5" cy="-30" r="3" fill="#7EC8E3" opacity="0.6"/>
+    <circle cx="10" cy="-40" r="2.5" fill="#4A9BD9" opacity="0.5"/>
+    <circle cx="-12" cy="-45" r="2" fill="#7EC8E3" opacity="0.4"/>
+    <circle cx="5" cy="-55" r="1.5" fill="#A8DEF0" opacity="0.5"/>
+    <circle cx="18" cy="-25" r="2" fill="#4A9BD9" opacity="0.4"/>
+  </g>
+  <!-- テキスト -->
+  <text x="520" y="160" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="66" font-weight="600" letter-spacing="10" fill="#1A365D" dx="20">UMIDAS</text>
+  <text x="540" y="198" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#4A9BD9" letter-spacing="4">殻を破り、生み出す</text>
+</svg>

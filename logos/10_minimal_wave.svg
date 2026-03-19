@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g10" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+
+  <!-- ミニマル波形ロゴタイプ — 文字の下に波を統合 -->
+  <g transform="translate(400, 160)">
+    <!-- UMIDAS テキスト -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="82" font-weight="600" letter-spacing="16" fill="#1A365D">UMIDAS</text>
+
+    <!-- 文字下部を横切る波ライン（文字の一部のように） -->
+    <path d="M-260,18 Q-200,5 -140,18 Q-80,31 -20,18 Q40,5 100,18 Q160,31 220,18 Q260,10 280,18" fill="none" stroke="url(#g10)" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- 第2の波（薄く） -->
+    <path d="M-250,30 Q-190,20 -130,30 Q-70,40 -10,30 Q50,20 110,30 Q170,40 230,30 Q270,24 290,30" fill="none" stroke="url(#g10)" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  </g>
+
+  <!-- サブテキスト -->
+  <text x="400" y="260" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="14" fill="#4A9BD9" letter-spacing="6">心 に 余 裕 を 生 み 出 す</text>
+</svg>

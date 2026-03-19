@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g11" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+  <!-- コンパスマーク — 導く存在 -->
+  <g transform="translate(195, 170)">
+    <!-- 外円 -->
+    <circle cx="0" cy="0" r="62" fill="none" stroke="#1A365D" stroke-width="2.5"/>
+    <!-- 内円 -->
+    <circle cx="0" cy="0" r="8" fill="url(#g11)"/>
+    <!-- 北の針（上昇＝成功への道） -->
+    <polygon points="0,-55 -10,0 0,-8 10,0" fill="url(#g11)"/>
+    <!-- 南の針 -->
+    <polygon points="0,55 -10,0 0,8 10,0" fill="#1A365D" opacity="0.25"/>
+    <!-- 東西ライン -->
+    <line x1="-55" y1="0" x2="-15" y2="0" stroke="#1A365D" stroke-width="1.2" opacity="0.3"/>
+    <line x1="15" y1="0" x2="55" y2="0" stroke="#1A365D" stroke-width="1.2" opacity="0.3"/>
+    <!-- 目盛り -->
+    <line x1="0" y1="-62" x2="0" y2="-56" stroke="#1A365D" stroke-width="1.5"/>
+    <line x1="0" y1="56" x2="0" y2="62" stroke="#1A365D" stroke-width="1.5"/>
+    <line x1="-62" y1="0" x2="-56" y2="0" stroke="#1A365D" stroke-width="1.5"/>
+    <line x1="56" y1="0" x2="62" y2="0" stroke="#1A365D" stroke-width="1.5"/>
+    <!-- 斜め目盛り -->
+    <line x1="39" y1="-39" x2="43" y2="-43" stroke="#1A365D" stroke-width="1" opacity="0.5"/>
+    <line x1="-39" y1="-39" x2="-43" y2="-43" stroke="#1A365D" stroke-width="1" opacity="0.5"/>
+    <line x1="39" y1="39" x2="43" y2="43" stroke="#1A365D" stroke-width="1" opacity="0.5"/>
+    <line x1="-39" y1="39" x2="-43" y2="43" stroke="#1A365D" stroke-width="1" opacity="0.5"/>
+  </g>
+  <!-- テキスト -->
+  <text x="520" y="160" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="66" font-weight="600" letter-spacing="10" fill="#1A365D" dx="20">UMIDAS</text>
+  <text x="540" y="198" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#4A9BD9" letter-spacing="4">正しい方向へ、誠実に導く</text>
+</svg>

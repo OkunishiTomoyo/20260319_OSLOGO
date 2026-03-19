@@ -1,0 +1,214 @@
+version: "1.0.0"
+project: "UMIDAS"
+generated_at: "2026-03-19"
+source: "docs/requirements/requirements.md"
+
+# ====================================
+# UMIDAS Design System
+# ====================================
+
+brand:
+  name: "UMIDAS"
+  name_ja: "生み出す"
+  tagline: "心に余裕を生み出す"
+  design_concept: "静かに満ちて、溢れ出す"
+
+# ------------------------------------
+# カラーパレット
+# ------------------------------------
+colors:
+  primary:
+    light_blue: "#7EC8E3"      # メイン水色 — 優しさ・思いやり
+    mid_blue: "#4A9BD9"        # 中間青 — 成長・つなぎ
+    deep_blue: "#2B6CB0"       # 深い青 — 誠実・信頼
+
+  gradient:
+    main: "linear-gradient(135deg, #7EC8E3 0%, #4A9BD9 50%, #2B6CB0 100%)"
+    direction: "左下→右上（上昇・成長）"
+    note: "満たされて溢れ出す過程を表現"
+
+  neutral:
+    white: "#FFFFFF"
+    off_white: "#F8FAFB"
+    light_gray: "#E2E8F0"
+    dark: "#1A365D"            # テキスト用ネイビー（真っ黒は不使用）
+
+  ng_colors:
+    - color: "green"
+      reason: "代表者が明確に不要と発言"
+    - color: "red"
+      reason: "アグレッシブすぎる、金融系顧客に不適"
+    - color: "pure_black (#000000)"
+      reason: "冷たすぎる、ネイビーで代替"
+    - color: "neon_blue (#0000FF)"
+      reason: "バキバキしすぎ、柔らかさが失われる"
+
+# ------------------------------------
+# タイポグラフィ
+# ------------------------------------
+typography:
+  logo_type:
+    direction: "セミカスタム — モダンサンセリフベースに水モチーフを忍ばせる"
+    base_reference:
+      - "Montserrat"
+      - "Poppins"
+      - "Quicksand"
+    constraints:
+      - "読めること（認知性最優先）"
+      - "遊び心あり（シンプルすぎない）"
+      - "6文字の横幅バランス"
+      - "金融・士業顧客に受け入れられる品格"
+    ng:
+      - "ヨウジヤマモト系の極端に崩した書体"
+      - "手書き風フォント"
+      - "丸ゴシック系（カジュアルすぎ）"
+
+  corporate:
+    heading:
+      family: "Noto Sans JP"
+      weights: [500, 700]
+    body:
+      family: "Noto Sans JP"
+      weights: [400, 500]
+    accent:
+      family: "Montserrat"
+      weights: [500, 600]
+      note: "英字・数字のアクセント用"
+
+# ------------------------------------
+# デザイントーン
+# ------------------------------------
+tone:
+  overall: "洗練 × やや固め — 柔らかすぎず、冷たすぎず"
+  keywords:
+    positive:
+      - "誠実"
+      - "信頼"
+      - "洗練"
+      - "知的"
+      - "品格"
+      - "自然体"
+    negative:
+      - "カジュアルすぎ"
+      - "女性的すぎ"
+      - "無機質"
+      - "派手"
+      - "チープ"
+
+  reference_brands:
+    like:
+      - name: "コックピット"
+        reason: "シンボル+シンプルテキスト、やや固め"
+      - name: "アクロシールズ"
+        reason: "洗練された固めのデザイン"
+      - name: "トライジン"
+        reason: "文字自体がデザインになっている"
+    avoid:
+      - type: "ハワイアンショップ系"
+        reason: "海ガメモチーフ出しすぎ"
+      - type: "エステ・ビューティー系"
+        reason: "柔らかすぎ"
+      - type: "テックスタートアップ系"
+        reason: "無機質すぎ"
+
+# ------------------------------------
+# モチーフ候補
+# ------------------------------------
+motifs:
+  primary:
+    - name: "水・波紋"
+      meaning: "溢れ出す、波及する、広がる"
+      priority: "高"
+    - name: "溢れ出すイメージ"
+      meaning: "心の余裕が満たされて溢れる"
+      priority: "高"
+
+  secondary:
+    - name: "海ガメ（ホヌ）"
+      meaning: "幸せを運ぶ生き物。社内文化と連動"
+      priority: "中"
+      note: "抽象化して使用。やりすぎるとハワイ感が出る"
+    - name: "青い炎"
+      meaning: "完全燃焼、青い熱狂。静かだが赤より燃えている"
+      priority: "中"
+      note: "斬新だが要検証"
+
+  tertiary:
+    - name: "卵→海ガメ"
+      meaning: "成長・孵化。新人→幹部のメタファー"
+      priority: "低"
+      note: "サブモチーフとして"
+
+# ------------------------------------
+# ロゴ仕様
+# ------------------------------------
+logo:
+  formats:
+    - type: "フルロゴ横組み"
+      description: "マーク + UMIDASテキスト（横並び）"
+      usage: "標準使用"
+    - type: "フルロゴ縦組み"
+      description: "マーク上 + テキスト下"
+      usage: "縦長スペース"
+    - type: "マークのみ"
+      description: "シンボルマーク単体"
+      usage: "アイコン、ファビコン、SNS"
+    - type: "テキストのみ"
+      description: "UMIDASロゴタイプ"
+      usage: "テキスト中"
+    - type: "単色白"
+      description: "白抜き"
+      usage: "暗い背景"
+    - type: "単色ダーク"
+      description: "ネイビー単色"
+      usage: "カラー不可時"
+
+  minimum_size: "16px height (デジタル) / 8mm height (印刷)"
+  clear_space: "マークの高さの50%を最低余白として確保"
+
+# ------------------------------------
+# 展開物
+# ------------------------------------
+deliverables:
+  phase_1:
+    - item: "ロゴマーク"
+      priority: "必須"
+    - item: "カラーバリエーション"
+      priority: "必須"
+    - item: "ロゴガイドライン"
+      priority: "必須"
+
+  phase_2:
+    - item: "名刺デザイン"
+      priority: "高"
+      note: "渡す瞬間のインパクトを重視"
+    - item: "Tシャツデザイン"
+      priority: "高"
+      note: "チーム全員着用、営業アポで使用"
+
+  phase_3:
+    - item: "Web用素材"
+      priority: "中"
+    - item: "資料テンプレート"
+      priority: "中"
+    - item: "SNSプロフィール画像"
+      priority: "中"
+
+# ------------------------------------
+# 品質基準
+# ------------------------------------
+quality:
+  visual:
+    - "モノクロでも成立すること"
+    - "縮小しても視認性が保たれること"
+    - "白背景・黒背景の両方で使えること"
+
+  conceptual:
+    - "企業理念との論理的なつながりがあること"
+    - "意味を説明できること（見た目だけではない）"
+    - "3秒で覚えられるシンプルさ"
+
+  practical:
+    - "名刺サイズで判別できること"
+    - "Tシャツプリントに適した形状であること"
+    - "ファビコン(16x16px)でも認識できること"

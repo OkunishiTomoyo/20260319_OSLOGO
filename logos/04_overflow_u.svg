@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#2B6CB0"/>
+      <stop offset="60%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#7EC8E3"/>
+    </linearGradient>
+    <clipPath id="uClip">
+      <path d="M140,80 L140,200 Q140,260 200,260 Q260,260 260,200 L260,80 L290,80 L290,200 Q290,280 200,280 Q110,280 110,200 L110,80Z"/>
+    </clipPath>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+
+  <!-- 「U」の器 + 溢れる水 -->
+  <g transform="translate(60, 50)">
+    <!-- U字の器 -->
+    <path d="M140,80 L140,200 Q140,260 200,260 Q260,260 260,200 L260,80" fill="none" stroke="#1A365D" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- 水面（U内の水） -->
+    <rect x="144" y="120" width="112" height="140" rx="0" fill="url(#g4)" clip-path="url(#uClip)" opacity="0.8"/>
+
+    <!-- 溢れる波のライン -->
+    <path d="M135,120 Q120,115 105,120 Q90,125 75,118" fill="none" stroke="#7EC8E3" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M265,120 Q280,115 295,122 Q310,128 325,120" fill="none" stroke="#7EC8E3" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M130,108 Q115,103 100,108" fill="none" stroke="#4A9BD9" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <path d="M270,108 Q285,103 300,110" fill="none" stroke="#4A9BD9" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 水面の波 -->
+    <path d="M148,120 Q170,112 200,120 Q230,128 252,120" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2"/>
+  </g>
+
+  <!-- MIDAS テキスト -->
+  <text x="460" y="240" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="80" font-weight="600" letter-spacing="6" fill="#1A365D">MIDAS</text>
+
+  <!-- サブテキスト -->
+  <text x="400" y="340" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="14" fill="#4A9BD9" letter-spacing="5">心 に 余 裕 を 生 み 出 す</text>
+</svg>

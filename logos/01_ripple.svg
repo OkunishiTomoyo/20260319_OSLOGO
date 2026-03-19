@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+
+  <!-- 波紋マーク -->
+  <g transform="translate(200, 160)">
+    <!-- 水滴 -->
+    <circle cx="0" cy="-20" r="8" fill="url(#g1)"/>
+    <!-- 波紋1 -->
+    <path d="M-30,10 Q0,-10 30,10" fill="none" stroke="#7EC8E3" stroke-width="3" stroke-linecap="round"/>
+    <!-- 波紋2 -->
+    <path d="M-55,25 Q0,-15 55,25" fill="none" stroke="#4A9BD9" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 波紋3（途切れ） -->
+    <path d="M-80,42 Q-40,10 0,30" fill="none" stroke="#2B6CB0" stroke-width="2" stroke-linecap="round"/>
+    <path d="M15,28 Q55,10 80,42" fill="none" stroke="#2B6CB0" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- テキスト UMIDAS -->
+  <text x="400" y="290" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="72" font-weight="600" letter-spacing="12" fill="#1A365D">UMIDAS</text>
+
+  <!-- サブテキスト -->
+  <text x="400" y="330" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="14" fill="#4A9BD9" letter-spacing="6">心 に 余 裕 を 生 み 出 す</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g9a" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#2B6CB0"/>
+      <stop offset="40%" stop-color="#4A9BD9"/>
+      <stop offset="80%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#A8DEF0"/>
+    </linearGradient>
+    <linearGradient id="g9b" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#D4F0FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+
+  <!-- 青い炎マーク — 水と炎の融合 -->
+  <g transform="translate(195, 185)">
+    <!-- 外炎 -->
+    <path d="M0,-80 C15,-60 45,-25 45,10 C45,30 38,48 25,58 C35,40 30,15 15,0 C5,-10 -5,-5 0,15 C8,35 5,55 -5,62 C-15,55 -20,35 -15,15 C-10,0 -18,-8 -25,5 C-38,25 -42,45 -30,60 C-43,48 -50,28 -50,10 C-50,-25 -15,-60 0,-80Z"
+          fill="url(#g9a)" opacity="0.85"/>
+    <!-- 内炎 -->
+    <path d="M0,-45 C8,-35 25,-12 25,12 C25,32 15,48 0,55 C-15,48 -25,32 -25,12 C-25,-12 -8,-35 0,-45Z"
+          fill="url(#g9b)" opacity="0.5"/>
+    <!-- 芯 -->
+    <ellipse cx="0" cy="25" rx="8" ry="15" fill="white" opacity="0.4"/>
+  </g>
+
+  <!-- テキスト UMIDAS -->
+  <text x="510" y="175" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="70" font-weight="700" letter-spacing="8" fill="#1A365D" dx="30">UMIDAS</text>
+
+  <!-- サブテキスト -->
+  <text x="540" y="215" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="13" fill="#2B6CB0" letter-spacing="3">完全燃焼する誠実さ</text>
+
+  <!-- アクセントライン -->
+  <line x1="330" y1="240" x2="750" y2="240" stroke="url(#g9a)" stroke-width="2" opacity="0.3"/>
+</svg>

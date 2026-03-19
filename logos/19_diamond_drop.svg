@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g19" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#A8DEF0"/>
+      <stop offset="30%" stop-color="#7EC8E3"/>
+      <stop offset="70%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <linearGradient id="g19b" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7EC8E3" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#2B6CB0" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+  <!-- ダイヤモンド+水滴 — 価値の結晶 -->
+  <g transform="translate(195, 170)">
+    <!-- 外ダイヤモンド形 -->
+    <polygon points="0,-70 55,0 0,70 -55,0" fill="url(#g19b)"/>
+    <polygon points="0,-70 55,0 0,70 -55,0" fill="none" stroke="url(#g19)" stroke-width="3" stroke-linejoin="round"/>
+    <!-- 内部の水滴 -->
+    <path d="M0,-28 C3,-24 16,-8 16,6 C16,16 9,24 0,24 C-9,24 -16,16 -16,6 C-16,-8 -3,-24 0,-28Z" fill="url(#g19)" opacity="0.7"/>
+    <!-- ダイヤモンドのカット線 -->
+    <line x1="-55" y1="0" x2="55" y2="0" stroke="#4A9BD9" stroke-width="1" opacity="0.3"/>
+    <line x1="0" y1="-70" x2="-30" y2="0" stroke="#4A9BD9" stroke-width="0.8" opacity="0.2"/>
+    <line x1="0" y1="-70" x2="30" y2="0" stroke="#4A9BD9" stroke-width="0.8" opacity="0.2"/>
+    <!-- 輝きの粒子 -->
+    <circle cx="-20" cy="-35" r="2" fill="#A8DEF0" opacity="0.6"/>
+    <circle cx="25" cy="-20" r="1.5" fill="#7EC8E3" opacity="0.5"/>
+  </g>
+  <!-- テキスト -->
+  <text x="520" y="162" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="66" font-weight="700" letter-spacing="10" fill="#1A365D" dx="20">UMIDAS</text>
+  <text x="540" y="200" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#2B6CB0" letter-spacing="4">誠実が結晶する</text>
+</svg>

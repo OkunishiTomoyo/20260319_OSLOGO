@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g18a" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A8DEF0"/>
+      <stop offset="100%" stop-color="#7EC8E3"/>
+    </linearGradient>
+    <linearGradient id="g18b" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#4A9BD9"/>
+    </linearGradient>
+    <linearGradient id="g18c" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+  <!-- レイヤードウェーブ — 3層の波が重なる -->
+  <g transform="translate(190, 140)">
+    <!-- 波1（最も薄い） -->
+    <path d="M-70,0 Q-45,-20 -20,0 Q5,20 30,0 Q55,-20 70,0" fill="none" stroke="url(#g18a)" stroke-width="4" stroke-linecap="round"/>
+    <!-- 波2（中間） -->
+    <path d="M-70,22 Q-45,2 -20,22 Q5,42 30,22 Q55,2 70,22" fill="none" stroke="url(#g18b)" stroke-width="5" stroke-linecap="round"/>
+    <!-- 波3（最も濃い） -->
+    <path d="M-70,44 Q-45,24 -20,44 Q5,64 30,44 Q55,24 70,44" fill="none" stroke="url(#g18c)" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- テキスト -->
+  <text x="520" y="165" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="66" font-weight="600" letter-spacing="10" fill="#1A365D" dx="20">UMIDAS</text>
+  <!-- 下部に企業理念 -->
+  <line x1="310" y1="200" x2="760" y2="200" stroke="#7EC8E3" stroke-width="1" opacity="0.4"/>
+  <text x="540" y="225" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="13" fill="#4A9BD9" letter-spacing="4">心に余裕を生み出す</text>
+</svg>

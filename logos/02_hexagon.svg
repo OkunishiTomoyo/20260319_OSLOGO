@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g2a" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <linearGradient id="g2b" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <linearGradient id="g2c" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#A8DEF0"/>
+      <stop offset="100%" stop-color="#4A9BD9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+
+  <!-- 甲羅六角形マーク -->
+  <g transform="translate(200, 165)">
+    <!-- 中央六角形 -->
+    <polygon points="0,-32 28,-16 28,16 0,32 -28,16 -28,-16" fill="url(#g2c)" opacity="0.9"/>
+    <!-- 左上六角形 -->
+    <polygon points="-30,-48 -2,-64 26,-48 26,-16 -2,0 -30,-16" fill="url(#g2a)" opacity="0.7" transform="translate(-26, -2)"/>
+    <!-- 右上六角形 -->
+    <polygon points="0,-32 28,-16 28,16 0,32 -28,16 -28,-16" fill="url(#g2b)" opacity="0.7" transform="translate(30, -48)"/>
+    <!-- 左下六角形 -->
+    <polygon points="0,-32 28,-16 28,16 0,32 -28,16 -28,-16" fill="url(#g2a)" opacity="0.6" transform="translate(-30, 48)"/>
+    <!-- 右下六角形 -->
+    <polygon points="0,-32 28,-16 28,16 0,32 -28,16 -28,-16" fill="url(#g2b)" opacity="0.6" transform="translate(30, 48)"/>
+    <!-- 右六角形 -->
+    <polygon points="0,-32 28,-16 28,16 0,32 -28,16 -28,-16" fill="url(#g2a)" opacity="0.5" transform="translate(58, 0)"/>
+    <!-- 左六角形 -->
+    <polygon points="0,-32 28,-16 28,16 0,32 -28,16 -28,-16" fill="url(#g2b)" opacity="0.5" transform="translate(-58, 0)"/>
+  </g>
+
+  <!-- テキスト -->
+  <text x="420" y="185" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="68" font-weight="600" letter-spacing="10" fill="#1A365D" dx="100">UMIDAS</text>
+
+  <text x="520" y="220" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="13" fill="#4A9BD9" letter-spacing="4">心に余裕を生み出す</text>
+</svg>

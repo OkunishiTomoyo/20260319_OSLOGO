@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g12" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <linearGradient id="g12b" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#A8DEF0"/>
+      <stop offset="100%" stop-color="#4A9BD9"/>
+    </linearGradient>
+    <clipPath id="shieldClip">
+      <path d="M0,-68 C35,-68 60,-55 60,-30 L60,15 C60,50 30,68 0,78 C-30,68 -60,50 -60,15 L-60,-30 C-60,-55 -35,-68 0,-68Z"/>
+    </clipPath>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+  <!-- シールド+波 — 信頼の盾 -->
+  <g transform="translate(190, 175)">
+    <!-- シールド外形 -->
+    <path d="M0,-68 C35,-68 60,-55 60,-30 L60,15 C60,50 30,68 0,78 C-30,68 -60,50 -60,15 L-60,-30 C-60,-55 -35,-68 0,-68Z" fill="none" stroke="#1A365D" stroke-width="3"/>
+    <!-- シールド内の波 -->
+    <g clip-path="url(#shieldClip)">
+      <rect x="-60" y="5" width="120" height="80" fill="url(#g12)" opacity="0.25"/>
+      <path d="M-65,5 Q-35,-8 0,5 Q35,18 65,5 L65,80 L-65,80Z" fill="url(#g12)" opacity="0.5"/>
+      <path d="M-65,20 Q-30,10 0,20 Q30,30 65,20 L65,80 L-65,80Z" fill="url(#g12)" opacity="0.35"/>
+    </g>
+    <!-- U字のイニシャル（シールド内上部） -->
+    <path d="M-18,-40 L-18,-10 Q-18,8 0,8 Q18,8 18,-10 L18,-40" fill="none" stroke="#1A365D" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- テキスト -->
+  <text x="520" y="165" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="66" font-weight="600" letter-spacing="10" fill="#1A365D" dx="20">UMIDAS</text>
+  <text x="540" y="200" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#4A9BD9" letter-spacing="4">信頼で、守り抜く</text>
+</svg>

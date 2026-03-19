@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UMIDAS ロゴデザイン提案 — 全20案</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Helvetica Neue', 'Noto Sans JP', sans-serif;
+      background: #f8fafb;
+      color: #1A365D;
+      line-height: 1.7;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #1A365D 0%, #2B6CB0 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      margin-bottom: 12px;
+    }
+
+    .header p {
+      font-size: 1rem;
+      opacity: 0.8;
+      letter-spacing: 0.1em;
+    }
+
+    .concept-bar {
+      background: #2B6CB0;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.95rem;
+      letter-spacing: 0.2em;
+    }
+
+    .concept-bar span {
+      opacity: 0.6;
+      margin: 0 8px;
+    }
+
+    .grid {
+      max-width: 1400px;
+      margin: 40px auto;
+      padding: 0 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(26, 54, 93, 0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(26, 54, 93, 0.12);
+    }
+
+    .card-number {
+      background: linear-gradient(135deg, #7EC8E3, #2B6CB0);
+      color: white;
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-number .num {
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      opacity: 0.9;
+    }
+
+    .card-number .title {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .card-svg {
+      padding: 20px;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 250px;
+    }
+
+    .card-svg img {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+    }
+
+    .card-desc {
+      padding: 20px 24px;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    .card-desc h3 {
+      font-size: 0.95rem;
+      color: #2B6CB0;
+      margin-bottom: 8px;
+      letter-spacing: 0.05em;
+    }
+
+    .card-desc p {
+      font-size: 0.85rem;
+      color: #4a5568;
+      line-height: 1.8;
+    }
+
+    .card-tags {
+      padding: 12px 24px 20px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      font-size: 0.72rem;
+      padding: 4px 10px;
+      border-radius: 20px;
+      background: #EBF8FF;
+      color: #2B6CB0;
+      font-weight: 500;
+    }
+
+    .tag.recommended {
+      background: #2B6CB0;
+      color: white;
+    }
+
+    .dark-section {
+      background: #1A365D;
+      padding: 50px 30px;
+      margin-top: 50px;
+    }
+
+    .dark-section h2 {
+      color: white;
+      text-align: center;
+      font-size: 1.3rem;
+      margin-bottom: 30px;
+      letter-spacing: 0.1em;
+    }
+
+    .dark-grid {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 20px;
+    }
+
+    .dark-card {
+      background: #243B5E;
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 200px;
+    }
+
+    .dark-card img {
+      width: 100%;
+      max-width: 600px;
+      filter: brightness(0) invert(1);
+      opacity: 0.9;
+    }
+
+    .color-section {
+      max-width: 1400px;
+      margin: 50px auto;
+      padding: 0 30px;
+    }
+
+    .color-section h2 {
+      font-size: 1.3rem;
+      margin-bottom: 24px;
+      letter-spacing: 0.1em;
+    }
+
+    .colors {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .color-chip {
+      width: 180px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .color-swatch {
+      height: 80px;
+    }
+
+    .color-info {
+      padding: 12px;
+      background: white;
+      font-size: 0.8rem;
+    }
+
+    .color-info .name { font-weight: 600; margin-bottom: 4px; }
+    .color-info .hex { color: #718096; }
+
+    .footer {
+      text-align: center;
+      padding: 40px;
+      color: #a0aec0;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+    }
+
+    @media (max-width: 640px) {
+      .grid { grid-template-columns: 1fr; }
+      .dark-grid { grid-template-columns: 1fr; }
+      .header h1 { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>UMIDAS LOGO DESIGN</h1>
+    <p>ロゴデザイン提案 — 全20パターン</p>
+  </div>
+
+  <div class="concept-bar">
+    Design Concept <span>|</span> 静かに満ちて、溢れ出す
+  </div>
+
+  <div class="grid">
+
+    <!-- 01 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 01</span>
+        <span class="title">水紋 — Ripple</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/01_ripple.svg" alt="01 Ripple">
+      </div>
+      <div class="card-desc">
+        <h3>「波紋の先へ」</h3>
+        <p>水滴が落ちた瞬間に広がる波紋をモチーフに。一つの誠実な行動が大きな変化を生み出す。最外周が途切れていることで「まだ広がり続ける」可能性を暗示。旧社名ロゴ（波紋）の精神的継承。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">シンボル+テキスト</span>
+        <span class="tag">信頼感</span>
+        <span class="tag">王道</span>
+        <span class="tag">金融・士業向け</span>
+      </div>
+    </div>
+
+    <!-- 02 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 02</span>
+        <span class="title">甲羅六角 — Hexagon Shell</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/02_hexagon.svg" alt="02 Hexagon">
+      </div>
+      <div class="card-desc">
+        <h3>「ホヌの祝福」</h3>
+        <p>海ガメの甲羅パターンを六角形で抽象化。一見幾何学模様、よく見ると海ガメ。社内文化（幹部＝海ガメ、新人＝卵）と深く結びつく。六角形はハニカム構造＝効率性＝コスト削減も暗示。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag recommended">推奨</span>
+        <span class="tag">シンボル+テキスト</span>
+        <span class="tag">知的</span>
+        <span class="tag">海ガメ</span>
+        <span class="tag">アイコン化◎</span>
+      </div>
+    </div>
+
+    <!-- 03 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 03</span>
+        <span class="title">ライジングドロップ — Rising Drop</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/03_rising_drop.svg" alt="03 Rising Drop">
+      </div>
+      <div class="card-desc">
+        <h3>「青い熱狂」</h3>
+        <p>水滴が上昇する瞬間。水でありながら炎のように上へ向かう。静かだが完全燃焼する「青い熱狂」を形にした。上野氏がセッション中に共感した概念の直接表現。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag recommended">推奨</span>
+        <span class="tag">シンボル+テキスト</span>
+        <span class="tag">水×炎</span>
+        <span class="tag">斬新</span>
+        <span class="tag">Tシャツ映え</span>
+      </div>
+    </div>
+
+    <!-- 04 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 04</span>
+        <span class="title">オーバーフロー — Overflow U</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/04_overflow_u.svg" alt="04 Overflow U">
+      </div>
+      <div class="card-desc">
+        <h3>「溢れ出す器」</h3>
+        <p>UMIDASの頭文字「U」を器に見立て、そこから水が溢れ出す。「心に余裕を生み出す」の直接的ビジュアル化。MIDASはギリシャ神話の「触れるもの全てを価値に変えるミダス王」のダブルミーニング。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">ロゴタイプ融合</span>
+        <span class="tag">ストーリー性</span>
+        <span class="tag">ダブルミーニング</span>
+      </div>
+    </div>
+
+    <!-- 05 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 05</span>
+        <span class="title">フロータイプ — Flow Type</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/05_flow_type.svg" alt="05 Flow Type">
+      </div>
+      <div class="card-desc">
+        <h3>「流れるUMIDAS」</h3>
+        <p>文字の太さが左（U=細い）から右（S=太い）へ徐々に変化するグラデーション書体。読み進めると「溢れ出す」感覚。Sの右から水滴が飛び出すアクセント。文字自体がデザインになるトライジン型。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">ロゴタイプ</span>
+        <span class="tag">トライジン型</span>
+        <span class="tag">Tシャツ映え</span>
+      </div>
+    </div>
+
+    <!-- 06 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 06</span>
+        <span class="title">タートル抽象 — Abstract Honu</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/06_turtle_abstract.svg" alt="06 Abstract Turtle">
+      </div>
+      <div class="card-desc">
+        <h3>「海を渡るホヌ」</h3>
+        <p>海ガメを線画で抽象化。甲羅は波のラインパターンで構成。直接的なイラストではなく、ラインアートとしてスタイリッシュに昇華。海ガメモチーフをしっかり出しつつ、ハワイ感を抑制。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">シンボル+テキスト</span>
+        <span class="tag">海ガメ</span>
+        <span class="tag">ラインアート</span>
+      </div>
+    </div>
+
+    <!-- 07 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 07</span>
+        <span class="title">ウェーブサークル — Wave Circle</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/07_wave_circle.svg" alt="07 Wave Circle">
+      </div>
+      <div class="card-desc">
+        <h3>「溢れ出す海」</h3>
+        <p>円形の器の中に海面を配置し、そこから水滴が飛び出す。「満たされて溢れ出す」状態の直接表現。円は調和・信頼の象徴。水滴が円の外に飛び出すことで、枠を超えた成長を表現。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">シンボル+テキスト</span>
+        <span class="tag">溢れ出す</span>
+        <span class="tag">アイコン化◎</span>
+      </div>
+    </div>
+
+    <!-- 08 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 08</span>
+        <span class="title">モノグラム — Monogram U</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/08_monogram.svg" alt="08 Monogram">
+      </div>
+      <div class="card-desc">
+        <h3>「器としてのU」</h3>
+        <p>「U」をスタイリッシュなモノグラムとして大きく配置し、シンボルマーク化。Uの器から左右に水が溢れ出すラインで動きを加える。コックピット社のようなマーク+テキストの王道構成。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag recommended">推奨</span>
+        <span class="tag">モノグラム</span>
+        <span class="tag">コックピット型</span>
+        <span class="tag">汎用性◎</span>
+      </div>
+    </div>
+
+    <!-- 09 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 09</span>
+        <span class="title">ブルーフレイム — Blue Flame</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/09_blue_flame.svg" alt="09 Blue Flame">
+      </div>
+      <div class="card-desc">
+        <h3>「完全燃焼する誠実さ」</h3>
+        <p>青い炎をモチーフに。赤い炎は不完全燃焼、青い炎は完全燃焼。静かに見えて実は最も高温＝静かだが最も本気。上野氏の「青い熱狂」セッションから直接インスパイア。内部のグラデーションで奥行きを表現。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">シンボル+テキスト</span>
+        <span class="tag">青い炎</span>
+        <span class="tag">インパクト</span>
+        <span class="tag">Tシャツ映え</span>
+      </div>
+    </div>
+
+    <!-- 10 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 10</span>
+        <span class="title">ミニマルウェーブ — Minimal Wave</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/10_minimal_wave.svg" alt="10 Minimal Wave">
+      </div>
+      <div class="card-desc">
+        <h3>「波をまとう文字」</h3>
+        <p>UMIDASの文字を横切る波ライン1本で、水のイメージを最小限に統合。最もミニマルなアプローチ。文字自体の力を信じ、装飾は波ラインのみ。名刺に最も映え、あらゆるサイズで破綻しない。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">ロゴタイプ</span>
+        <span class="tag">ミニマル</span>
+        <span class="tag">汎用性◎◎</span>
+        <span class="tag">名刺向き</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- セクション区切り -->
+  <div style="max-width:1400px; margin:50px auto 20px; padding:0 30px;">
+    <h2 style="font-size:1.5rem; color:#1A365D; letter-spacing:0.1em; border-bottom:3px solid #2B6CB0; padding-bottom:12px;">PATTERN 11–20 — Extended Collection</h2>
+  </div>
+
+  <div class="grid">
+
+    <!-- 11 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 11</span>
+        <span class="title">コンパス — Compass</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/11_compass.svg" alt="11 Compass">
+      </div>
+      <div class="card-desc">
+        <h3>「正しい方向へ、誠実に導く」</h3>
+        <p>コンパスマークで「導く存在」を表現。クライアントを正しい方向へ導くナビゲーター。北の針が水色〜青のグラデーションで、上昇＝成功への方向を示す。コックピット社に近い固めのデザイン。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag recommended">推奨</span>
+        <span class="tag">シンボル+テキスト</span>
+        <span class="tag">導く</span>
+        <span class="tag">コックピット型</span>
+        <span class="tag">信頼感◎</span>
+      </div>
+    </div>
+
+    <!-- 12 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 12</span>
+        <span class="title">シールドウェーブ — Shield Wave</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/12_shield_wave.svg" alt="12 Shield Wave">
+      </div>
+      <div class="card-desc">
+        <h3>「信頼で、守り抜く」</h3>
+        <p>盾の中にU字と波を統合。信頼・守る・誠実の三要素を1つのマークに凝縮。金融・士業の顧客に最も刺さる「守りの信頼感」。盾の下半分が水で満たされ、心の余裕を表現。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag recommended">推奨</span>
+        <span class="tag">シンボル+テキスト</span>
+        <span class="tag">信頼の盾</span>
+        <span class="tag">金融・士業◎</span>
+        <span class="tag">アクロシールズ型</span>
+      </div>
+    </div>
+
+    <!-- 13 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 13</span>
+        <span class="title">ホライズン — Horizon</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/13_horizon.svg" alt="13 Horizon">
+      </div>
+      <div class="card-desc">
+        <h3>「水平線から昇る価値」</h3>
+        <p>水平線と日の出のモチーフ。海面から新しい価値が生まれる瞬間を捉えた。UMIDAS（海+出す）の語源を最も直接的に表現。テキストを下部に大きく配置し、マークは控えめに上部で象徴する。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">テキスト主体</span>
+        <span class="tag">UMI+DASU</span>
+        <span class="tag">新生</span>
+        <span class="tag">清涼感</span>
+      </div>
+    </div>
+
+    <!-- 14 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 14</span>
+        <span class="title">スタックBOLD — Stacked Bold</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/14_stacked_bold.svg" alt="14 Stacked Bold">
+      </div>
+      <div class="card-desc">
+        <h3>「力強く、生み出す」</h3>
+        <p>極太のUMIDASテキスト + 左のブルーアクセントライン + 水色〜青のアンダーバー。文字の力だけで勝負するミニマルかつ力強いデザイン。日本語「生み出す」を添えることで二言語の美しい対比を生む。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">ロゴタイプ</span>
+        <span class="tag">BOLD</span>
+        <span class="tag">ミニマル</span>
+        <span class="tag">Tシャツ映え◎</span>
+      </div>
+    </div>
+
+    <!-- 15 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 15</span>
+        <span class="title">エッグハッチ — Egg Hatch</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/15_egg_hatch.svg" alt="15 Egg Hatch">
+      </div>
+      <div class="card-desc">
+        <h3>「殻を破り、生み出す」</h3>
+        <p>卵が孵化する瞬間をマーク化。社内文化の「新人＝卵、幹部＝海ガメ」と直結。殻を破って飛び出す粒子は、生まれる価値・可能性の象徴。「産み出す」の意味を最も直接的に表現。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">シンボル+テキスト</span>
+        <span class="tag">孵化</span>
+        <span class="tag">社内文化</span>
+        <span class="tag">成長</span>
+      </div>
+    </div>
+
+    <!-- 16 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 16</span>
+        <span class="title">インフィニティ — Infinity Flow</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/16_infinity_flow.svg" alt="16 Infinity Flow">
+      </div>
+      <div class="card-desc">
+        <h3>「尽きない、生み出す力」</h3>
+        <p>無限大（∞）を水流ラインで描いたマーク。持続的に価値を生み出し続ける循環を表現。∞は「心に余裕を生み出す」→「チャレンジ」→「成功」→「さらなる余裕」の無限ループ。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">シンボル+テキスト</span>
+        <span class="tag">無限</span>
+        <span class="tag">循環</span>
+        <span class="tag">持続</span>
+      </div>
+    </div>
+
+    <!-- 17 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 17</span>
+        <span class="title">ドロップレター — Droplet Letter</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/17_droplet_letter.svg" alt="17 Droplet Letter">
+      </div>
+      <div class="card-desc">
+        <h3>「一滴が、すべてを変える」</h3>
+        <p>UMIDASの「D」を水滴形に置き換えたロゴタイプ。他の文字はクリーンなまま、Dだけが水モチーフに変わるさりげない遊び心。トライジン型の「文字の一部がデザインになる」アプローチ。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag recommended">推奨</span>
+        <span class="tag">ロゴタイプ</span>
+        <span class="tag">さりげない</span>
+        <span class="tag">トライジン型</span>
+        <span class="tag">汎用性◎</span>
+      </div>
+    </div>
+
+    <!-- 18 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 18</span>
+        <span class="title">レイヤードウェーブ — Layered Waves</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/18_layered_waves.svg" alt="18 Layered Waves">
+      </div>
+      <div class="card-desc">
+        <h3>「重なる波、深まる信頼」</h3>
+        <p>3本の波ラインが薄い水色→中間→深い青と重なる。水色〜青のグラデーション指定を最も素直に表現。波の太さも徐々に太くなり、信頼が深まる様を表す。シンプルだが記憶に残る。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">シンボル+テキスト</span>
+        <span class="tag">3層グラデ</span>
+        <span class="tag">波</span>
+        <span class="tag">アイコン化◎</span>
+      </div>
+    </div>
+
+    <!-- 19 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 19</span>
+        <span class="title">ダイヤモンドドロップ — Diamond Drop</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/19_diamond_drop.svg" alt="19 Diamond Drop">
+      </div>
+      <div class="card-desc">
+        <h3>「誠実が結晶する」</h3>
+        <p>ダイヤモンド形の中に水滴を配置。誠実さの積み重ねが結晶＝ダイヤモンドになるというメタファー。カット面の線が知的な印象を与え、水滴が内部で輝く。高級感と信頼のバランス。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag">シンボル+テキスト</span>
+        <span class="tag">結晶</span>
+        <span class="tag">高級感</span>
+        <span class="tag">知的</span>
+      </div>
+    </div>
+
+    <!-- 20 -->
+    <div class="card">
+      <div class="card-number">
+        <span class="num">PATTERN 20</span>
+        <span class="title">カレントタイプ — Current Type</span>
+      </div>
+      <div class="card-svg">
+        <img src="logos/20_current_type.svg" alt="20 Current Type">
+      </div>
+      <div class="card-desc">
+        <h3>「海流に乗る」</h3>
+        <p>大きなUMIDAS文字の背景に海流カーブを配置。「I」のドットを水滴に変更し遊び心を加える。下部に波のアクセントラインと日本語「生み出す」。最もスケール感のある力強いデザイン。</p>
+      </div>
+      <div class="card-tags">
+        <span class="tag recommended">推奨</span>
+        <span class="tag">ロゴタイプ</span>
+        <span class="tag">スケール感</span>
+        <span class="tag">日本語併記</span>
+        <span class="tag">名刺◎</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ダークバック展開 -->
+  <div class="dark-section">
+    <h2>Dark Background Variations</h2>
+    <div class="dark-grid">
+      <div class="dark-card">
+        <img src="logos/02_hexagon.svg" alt="Dark - Hexagon">
+      </div>
+      <div class="dark-card">
+        <img src="logos/03_rising_drop.svg" alt="Dark - Rising Drop">
+      </div>
+      <div class="dark-card">
+        <img src="logos/08_monogram.svg" alt="Dark - Monogram">
+      </div>
+      <div class="dark-card">
+        <img src="logos/11_compass.svg" alt="Dark - Compass">
+      </div>
+      <div class="dark-card">
+        <img src="logos/12_shield_wave.svg" alt="Dark - Shield">
+      </div>
+      <div class="dark-card">
+        <img src="logos/17_droplet_letter.svg" alt="Dark - Droplet">
+      </div>
+    </div>
+  </div>
+
+  <!-- カラーパレット -->
+  <div class="color-section">
+    <h2>Color Palette</h2>
+    <div class="colors">
+      <div class="color-chip">
+        <div class="color-swatch" style="background: #7EC8E3;"></div>
+        <div class="color-info">
+          <div class="name">Light Blue</div>
+          <div class="hex">#7EC8E3 — 優しさ・思いやり</div>
+        </div>
+      </div>
+      <div class="color-chip">
+        <div class="color-swatch" style="background: #4A9BD9;"></div>
+        <div class="color-info">
+          <div class="name">Mid Blue</div>
+          <div class="hex">#4A9BD9 — 成長・つなぎ</div>
+        </div>
+      </div>
+      <div class="color-chip">
+        <div class="color-swatch" style="background: #2B6CB0;"></div>
+        <div class="color-info">
+          <div class="name">Deep Blue</div>
+          <div class="hex">#2B6CB0 — 誠実・信頼</div>
+        </div>
+      </div>
+      <div class="color-chip">
+        <div class="color-swatch" style="background: #1A365D;"></div>
+        <div class="color-info">
+          <div class="name">Navy Dark</div>
+          <div class="hex">#1A365D — テキスト</div>
+        </div>
+      </div>
+      <div class="color-chip">
+        <div class="color-swatch" style="background: linear-gradient(135deg, #7EC8E3, #2B6CB0);"></div>
+        <div class="color-info">
+          <div class="name">Gradient</div>
+          <div class="hex">溢れ出すグラデーション</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    UMIDAS Logo Design Proposal — Created 2026-03-19<br>
+    Design Concept: 静かに満ちて、溢れ出す
+  </div>
+
+</body>
+</html>
