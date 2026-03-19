@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gt23" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- スプリットトーン — 上半分ネイビー/下半分グラデーション -->
+  <g transform="translate(400, 155)">
+    <!-- 上半分（ネイビー） -->
+    <clipPath id="topHalf23">
+      <rect x="-350" y="-70" width="700" height="70"/>
+    </clipPath>
+    <text clip-path="url(#topHalf23)" x="0" y="0" text-anchor="middle" font-family="'Montserrat', 'Arial Black', sans-serif" font-size="110" font-weight="800" letter-spacing="10" fill="#1A365D">UMIDAS</text>
+    <!-- 下半分（水色→青グラデーション） -->
+    <clipPath id="bottomHalf23">
+      <rect x="-350" y="0" width="700" height="70"/>
+    </clipPath>
+    <text clip-path="url(#bottomHalf23)" x="0" y="0" text-anchor="middle" font-family="'Montserrat', 'Arial Black', sans-serif" font-size="110" font-weight="800" letter-spacing="10" fill="url(#gt23)">UMIDAS</text>
+    <!-- 分割ライン -->
+    <line x1="-280" y1="0" x2="280" y2="0" stroke="white" stroke-width="3"/>
+  </g>
+</svg>

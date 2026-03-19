@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gt26" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- ラウンデッドソフト — 丸みを帯びた柔らかい書体+水滴のIドット -->
+  <g transform="translate(400, 158)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Quicksand', 'Nunito', 'Rounded Mplus 1c', sans-serif" font-size="100" font-weight="600" letter-spacing="10" fill="url(#gt26)">UMIDAS</text>
+    <!-- Iのドットを水滴に置換（重ねて上書き） -->
+    <rect x="-18" y="-68" width="36" height="16" fill="#FFFFFF"/>
+    <path d="M0,-68 C2,-65 8,-56 8,-50 C8,-44 4,-40 0,-40 C-4,-40 -8,-44 -8,-50 C-8,-56 -2,-65 0,-68Z" fill="url(#gt26)"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gt28" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2B6CB0"/>
+      <stop offset="40%" stop-color="#4A9BD9"/>
+      <stop offset="70%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#A8DEF0"/>
+    </linearGradient>
+    <filter id="shadow28">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#2B6CB0" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- フルグラデーションフィル — 大胆なグラデーション塗り -->
+  <g transform="translate(400, 165)" filter="url(#shadow28)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="110" font-weight="800" letter-spacing="6" fill="url(#gt28)">UMIDAS</text>
+  </g>
+  <!-- 下部サブテキスト -->
+  <text x="400" y="230" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" font-weight="400" letter-spacing="8" fill="#2B6CB0" opacity="0.5">心に余裕を生み出す</text>
+</svg>

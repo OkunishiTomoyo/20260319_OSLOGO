@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gt27" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- ステンシル風 — 文字に切れ込みが入った力強いデザイン -->
+  <g transform="translate(400, 160)">
+    <!-- ベース文字 -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Montserrat', 'Arial Black', sans-serif" font-size="105" font-weight="900" letter-spacing="8" fill="#1A365D">UMIDAS</text>
+    <!-- ステンシルカット（白い横線で文字を切る） -->
+    <rect x="-320" y="-22" width="640" height="5" fill="#FFFFFF"/>
+    <rect x="-320" y="8" width="640" height="5" fill="#FFFFFF"/>
+    <!-- 文字下にグラデーションアクセント -->
+    <rect x="-260" y="38" width="520" height="5" rx="2.5" fill="url(#gt27)"/>
+  </g>
+</svg>

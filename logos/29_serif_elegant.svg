@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gt29" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- セリフエレガント — 上品なセリフ体+ヘアラインアクセント -->
+  <g transform="translate(400, 155)">
+    <!-- メイン文字（セリフ体） -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Playfair Display', 'Georgia', 'Times New Roman', serif" font-size="98" font-weight="700" letter-spacing="14" fill="#1A365D">UMIDAS</text>
+    <!-- 上部のヘアライン -->
+    <line x1="-80" y1="-62" x2="80" y2="-62" stroke="url(#gt29)" stroke-width="1"/>
+    <!-- 下部のヘアライン -->
+    <line x1="-80" y1="18" x2="80" y2="18" stroke="url(#gt29)" stroke-width="1"/>
+    <!-- 中央に小さなダイヤモンド装飾 -->
+    <polygon points="0,-69 4,-62 0,-55 -4,-62" fill="url(#gt29)"/>
+    <polygon points="0,11 4,18 0,25 -4,18" fill="url(#gt29)"/>
+  </g>
+</svg>

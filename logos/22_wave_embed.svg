@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gt22" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <linearGradient id="gt22b" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <clipPath id="textClip22">
+      <text x="400" y="172" text-anchor="middle" font-family="'Montserrat', 'Arial Black', sans-serif" font-size="120" font-weight="900" letter-spacing="8">UMIDAS</text>
+    </clipPath>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- 文字の中に波が流れる -->
+  <g clip-path="url(#textClip22)">
+    <!-- 上部（ネイビー） -->
+    <rect x="0" y="0" width="800" height="300" fill="#1A365D"/>
+    <!-- 波で区切り（下部がグラデーション） -->
+    <path d="M0,155 Q100,135 200,155 Q300,175 400,155 Q500,135 600,155 Q700,175 800,155 L800,300 L0,300Z" fill="url(#gt22)"/>
+    <path d="M0,170 Q100,155 200,170 Q300,185 400,170 Q500,155 600,170 Q700,185 800,170 L800,300 L0,300Z" fill="url(#gt22b)" opacity="0.6"/>
+  </g>
+  <!-- 文字のアウトライン（補助） -->
+  <text x="400" y="172" text-anchor="middle" font-family="'Montserrat', 'Arial Black', sans-serif" font-size="120" font-weight="900" letter-spacing="8" fill="none" stroke="#1A365D" stroke-width="0.5" opacity="0.15">UMIDAS</text>
+</svg>

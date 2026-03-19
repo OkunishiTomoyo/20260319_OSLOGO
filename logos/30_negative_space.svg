@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gt30" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <mask id="textMask30">
+      <rect width="800" height="300" fill="white"/>
+      <text x="400" y="172" text-anchor="middle" font-family="'Montserrat', 'Arial Black', sans-serif" font-size="115" font-weight="900" letter-spacing="6" fill="black">UMIDAS</text>
+    </mask>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- ネガティブスペース — 背景色で文字を抜く -->
+  <g>
+    <!-- 角丸長方形の背景 -->
+    <rect x="55" y="65" width="690" height="170" rx="16" fill="url(#gt30)" mask="url(#textMask30)"/>
+    <!-- 文字は白く抜ける -->
+  </g>
+  <!-- 下部サブテキスト -->
+  <text x="400" y="272" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" font-weight="400" letter-spacing="8" fill="#2B6CB0" opacity="0.6">心に余裕を生み出す</text>
+</svg>
