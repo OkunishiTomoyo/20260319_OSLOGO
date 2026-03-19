@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gy41" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="45%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- サイン風フロー — Yohji的な鋭い入り+長い水平ストローク -->
+  <g transform="translate(390, 155)">
+    <!-- U — 鋭い左斜めの入りから -->
+    <path d="M-320,-55 L-295,-35 C-292,-10 -290,18 -278,28 C-266,36 -255,28 -252,8 L-248,-30"
+          fill="none" stroke="url(#gy41)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- つなぎ U→M -->
+    <path d="M-248,-30 C-245,-35 -240,-38 -235,-30" fill="none" stroke="url(#gy41)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- M — 鋭角なピーク -->
+    <path d="M-235,-30 L-230,32 L-208,-35 L-186,32 L-180,-30"
+          fill="none" stroke="url(#gy41)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- つなぎ M→I -->
+    <path d="M-180,-30 C-175,-38 -168,-35 -162,-28" fill="none" stroke="url(#gy41)" stroke-width="2" stroke-linecap="round"/>
+    <!-- I — 太い縦棒+はね上げ -->
+    <path d="M-162,-28 L-155,35 C-152,42 -145,38 -138,28"
+          fill="none" stroke="url(#gy41)" stroke-width="5.5" stroke-linecap="round"/>
+    <!-- つなぎ I→D -->
+    <path d="M-138,28 C-130,18 -122,12 -115,8" fill="none" stroke="url(#gy41)" stroke-width="2" stroke-linecap="round"/>
+    <!-- D — 縦棒+膨らむカーブ -->
+    <path d="M-115,8 L-110,-32 L-108,35 C-85,38 -62,20 -62,-2 C-62,-25 -85,-38 -108,-35"
+          fill="none" stroke="url(#gy41)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- つなぎ D→A -->
+    <path d="M-62,-2 C-55,-8 -45,-15 -38,-20" fill="none" stroke="url(#gy41)" stroke-width="2" stroke-linecap="round"/>
+    <!-- A — シャープな三角+横棒 -->
+    <path d="M-38,-20 L-10,35 M-38,-20 L18,35 M-28,15 L8,15"
+          fill="none" stroke="url(#gy41)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- つなぎ A→S -->
+    <path d="M18,35 C28,28 35,18 40,8" fill="none" stroke="url(#gy41)" stroke-width="2" stroke-linecap="round"/>
+    <!-- S — うねり+最後の長い水平ストローク -->
+    <path d="M40,8 C55,-15 75,-28 70,-35 C62,-45 45,-38 48,-18 C52,2 85,8 88,25 C90,38 75,42 60,35"
+          fill="none" stroke="url(#gy41)" stroke-width="4" stroke-linecap="round"/>
+    <!-- Yohji的な長い水平フィニッシュストローク -->
+    <path d="M60,35 C90,22 180,-15 310,-25"
+          fill="none" stroke="url(#gy41)" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <!-- 鋭い終端 -->
+    <path d="M305,-25 L315,-28" fill="none" stroke="url(#gy41)" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>

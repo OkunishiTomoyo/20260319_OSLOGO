@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gy45" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A8DEF0"/>
+      <stop offset="25%" stop-color="#7EC8E3"/>
+      <stop offset="60%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- プレッシャーウェーブ — 筆圧の波。全体が一つの呼吸のように -->
+  <g transform="translate(400, 152)">
+    <!-- U — 軽い入り→底で強く→軽い抜き -->
+    <path d="M-290,-38 C-292,0 -288,28 -275,35 C-262,42 -250,28 -248,0 C-246,-20 -245,-32 -244,-38"
+          fill="none" stroke="url(#gy45)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Uの底を太く -->
+    <path d="M-285,15 C-280,32 -268,38 -258,28 C-252,22 -250,12 -249,0"
+          fill="none" stroke="url(#gy45)" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+    <!-- M — 頂点は細く、谷は太く -->
+    <path d="M-225,35 L-222,-38" fill="none" stroke="url(#gy45)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-222,-38 L-200,28" fill="none" stroke="url(#gy45)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-200,28 L-178,-38" fill="none" stroke="url(#gy45)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-178,-38 L-175,35" fill="none" stroke="url(#gy45)" stroke-width="3" stroke-linecap="round"/>
+    <!-- M底部を太く -->
+    <path d="M-225,20 L-225,35" fill="none" stroke="url(#gy45)" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+    <path d="M-175,20 L-175,35" fill="none" stroke="url(#gy45)" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+    <!-- I — 最も太く（筆圧のピーク） -->
+    <path d="M-148,-38 L-145,35" fill="none" stroke="url(#gy45)" stroke-width="10" stroke-linecap="round"/>
+    <!-- D — 縦が太く、カーブは細く -->
+    <path d="M-112,35 L-112,-38" fill="none" stroke="url(#gy45)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-112,-38 C-80,-45 -55,-18 -55,2 C-55,22 -80,40 -112,35"
+          fill="none" stroke="url(#gy45)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- A — 斜めは細く、横棒は太い -->
+    <path d="M-15,35 L18,-38 L50,35" fill="none" stroke="url(#gy45)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-2,12 L38,12" fill="none" stroke="url(#gy45)" stroke-width="7" stroke-linecap="round"/>
+    <!-- S — 流れるように -->
+    <path d="M88,-22 C80,-40 62,-42 58,-28 C54,-10 90,-2 88,22 C86,40 68,42 58,32"
+          fill="none" stroke="url(#gy45)" stroke-width="4" stroke-linecap="round"/>
+    <!-- フィニッシュの長い引き -->
+    <path d="M58,32 C100,15 200,-5 310,-18" fill="none" stroke="url(#gy45)" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+  </g>
+</svg>

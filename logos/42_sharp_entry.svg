@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gy42" x1="0%" y1="20%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A8DEF0"/>
+      <stop offset="30%" stop-color="#7EC8E3"/>
+      <stop offset="65%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- シャープエントリー — Yohjiの左下からの鋭い入り -->
+  <g transform="translate(400, 150)">
+    <!-- 大胆な左下からの導入ストローク -->
+    <path d="M-350,80 L-290,-25" fill="none" stroke="url(#gy42)" stroke-width="2" stroke-linecap="round"/>
+    <!-- U -->
+    <path d="M-290,-25 L-285,30 C-282,45 -265,48 -255,30 L-250,-20"
+          fill="none" stroke="url(#gy42)" stroke-width="5" stroke-linecap="round"/>
+    <!-- M — 筆圧変化のある -->
+    <path d="M-250,-20 L-240,35" fill="none" stroke="url(#gy42)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-240,35 L-215,-25" fill="none" stroke="url(#gy42)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-215,-25 L-190,35" fill="none" stroke="url(#gy42)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-190,35 L-180,-20" fill="none" stroke="url(#gy42)" stroke-width="6" stroke-linecap="round"/>
+    <!-- I -->
+    <path d="M-160,-25 L-155,40 C-152,48 -142,42 -135,30"
+          fill="none" stroke="url(#gy42)" stroke-width="6" stroke-linecap="round"/>
+    <!-- D -->
+    <path d="M-115,-20 L-112,38" fill="none" stroke="url(#gy42)" stroke-width="5.5" stroke-linecap="round"/>
+    <path d="M-112,-22 C-80,-30 -58,-8 -58,10 C-58,30 -80,42 -112,38"
+          fill="none" stroke="url(#gy42)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- A -->
+    <path d="M-25,38 L10,-25 L45,38" fill="none" stroke="url(#gy42)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-12,15 L32,15" fill="none" stroke="url(#gy42)" stroke-width="5" stroke-linecap="round"/>
+    <!-- S -->
+    <path d="M70,-15 C65,-30 50,-35 48,-20 C45,0 82,5 80,28 C78,42 62,45 52,35"
+          fill="none" stroke="url(#gy42)" stroke-width="4" stroke-linecap="round"/>
+    <!-- 長い水平フィニッシュ -->
+    <path d="M52,35 C100,15 200,-5 320,-18" fill="none" stroke="url(#gy42)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

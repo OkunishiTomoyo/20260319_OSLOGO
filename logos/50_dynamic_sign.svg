@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gy50" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A8DEF0"/>
+      <stop offset="20%" stop-color="#7EC8E3"/>
+      <stop offset="55%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <linearGradient id="gy50b" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#1A365D"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- ダイナミックサイン — Yohji画像に最も近い中間バランス -->
+  <g transform="translate(395, 150)">
+    <!-- 導入の鋭い斜線（Yohji的） -->
+    <path d="M-345,78 L-295,-30" fill="none" stroke="url(#gy50)" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <!-- U -->
+    <path d="M-295,-30 C-295,5 -290,30 -275,38 C-260,45 -248,30 -245,5 L-242,-28"
+          fill="none" stroke="url(#gy50)" stroke-width="5.5" stroke-linecap="round"/>
+    <!-- M -->
+    <path d="M-225,-30 L-222,35" fill="none" stroke="url(#gy50)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-222,-30 L-200,25 L-178,-30" fill="none" stroke="url(#gy50)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-178,-30 L-175,35" fill="none" stroke="url(#gy50)" stroke-width="6" stroke-linecap="round"/>
+    <!-- I -->
+    <path d="M-152,-30 L-150,35" fill="none" stroke="url(#gy50)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Iからの小さなはね -->
+    <path d="M-150,35 C-145,40 -138,35 -132,25" fill="none" stroke="url(#gy50)" stroke-width="2" stroke-linecap="round"/>
+    <!-- D -->
+    <path d="M-108,-30 L-108,35" fill="none" stroke="url(#gy50)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-108,-30 C-78,-38 -52,-12 -52,5 C-52,25 -78,40 -108,35"
+          fill="none" stroke="url(#gy50)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- A -->
+    <path d="M-18,35 L15,-30 L48,35" fill="none" stroke="url(#gy50)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-5,12 L35,12" fill="none" stroke="url(#gy50)" stroke-width="6" stroke-linecap="round"/>
+    <!-- S -->
+    <path d="M80,-18 C75,-35 58,-40 55,-25 C52,-5 85,0 82,22 C80,38 62,42 52,30"
+          fill="none" stroke="url(#gy50)" stroke-width="5" stroke-linecap="round"/>
+    <!-- ===== Yohji的ロングフィニッシュ ===== -->
+    <!-- メインの水平ストローク（最も重要） -->
+    <path d="M52,30 C80,22 120,8 180,-5 C240,-18 300,-22 350,-28"
+          fill="none" stroke="url(#gy50b)" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+    <!-- 先端に向かって細く -->
+    <path d="M340,-27 L360,-30" fill="none" stroke="url(#gy50b)" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+    <!-- 上部を走る補助ストローク -->
+    <path d="M-108,-48 C0,-55 100,-50 250,-55 C310,-58 340,-52 355,-55"
+          fill="none" stroke="url(#gy50)" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gy43" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="50%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#1A365D"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- コネクテッドカーシブ — 全文字がつながる筆記体（読みやすい寄り） -->
+  <g transform="translate(400, 155)">
+    <!-- 一筆書き風にUMIDAS全体を1本のパスで -->
+    <!-- U -->
+    <path d="M-300,-40
+             L-295,25 C-292,42 -272,45 -265,25 L-258,-35
+             C-255,-42 -248,-42 -242,-35
+             L-238,30 L-212,-40 L-188,30 L-182,-35
+             C-178,-42 -170,-38 -165,-25
+             L-160,35 C-155,45 -145,40 -138,25
+             C-132,12 -125,5 -118,0
+             L-115,-35 L-112,38 C-90,42 -65,25 -65,0 C-65,-28 -90,-40 -112,-35
+             C-105,-35 -55,-35 -48,-25
+             L-22,38 L8,-25 L38,38
+             M-8,12 L25,12
+             C32,15 42,5 48,-5
+             C60,-22 75,-30 72,-38 C68,-48 52,-42 55,-22 C58,2 88,8 88,28 C88,42 72,45 62,35"
+          fill="none" stroke="url(#gy43)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- 長い引き線 -->
+    <path d="M62,35 C120,8 220,-15 300,-20" fill="none" stroke="url(#gy43)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>
