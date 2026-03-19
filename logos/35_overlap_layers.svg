@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gb35a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A8DEF0"/>
+      <stop offset="100%" stop-color="#7EC8E3"/>
+    </linearGradient>
+    <linearGradient id="gb35b" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#4A9BD9"/>
+    </linearGradient>
+    <linearGradient id="gb35c" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- オーバーラップレイヤー — 3層の文字が重なる -->
+  <g transform="translate(400, 152)">
+    <!-- レイヤー3（最背面・最も薄い） -->
+    <text x="8" y="8" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="108" font-weight="800" font-style="italic" letter-spacing="6" fill="url(#gb35a)" opacity="0.3">UMIDAS</text>
+    <!-- レイヤー2（中間） -->
+    <text x="4" y="4" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="108" font-weight="800" font-style="italic" letter-spacing="6" fill="url(#gb35b)" opacity="0.5">UMIDAS</text>
+    <!-- レイヤー1（最前面・最も濃い） -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="108" font-weight="800" font-style="italic" letter-spacing="6" fill="url(#gb35c)">UMIDAS</text>
+  </g>
+</svg>

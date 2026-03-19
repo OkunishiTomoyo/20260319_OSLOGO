@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gb40" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="40%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#1A365D"/>
+    </linearGradient>
+    <linearGradient id="gb40b" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2B6CB0"/>
+      <stop offset="100%" stop-color="#A8DEF0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- ロウ・エクスプレッシブ — 手描きの荒々しさ+グラデーション -->
+  <g transform="translate(400, 155)">
+    <!-- U — 荒い筆タッチ -->
+    <path d="M-315,-50 C-318,-10 -315,22 -300,35 C-285,45 -268,32 -262,10 L-258,-50" fill="none" stroke="url(#gb40)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-310,-48 C-312,5 -308,28 -298,36" fill="none" stroke="url(#gb40b)" stroke-width="12" stroke-linecap="round" opacity="0.3"/>
+    <!-- M — 速い筆のM -->
+    <path d="M-235,42 C-234,20 -233,-20 -232,-50 C-225,-30 -210,15 -200,25 C-190,15 -178,-30 -172,-50 C-171,-20 -170,20 -169,42" fill="none" stroke="url(#gb40)" stroke-width="5" stroke-linecap="round"/>
+    <!-- I — 一筆、太い -->
+    <path d="M-142,-50 C-143,-15 -140,15 -138,42" fill="none" stroke="url(#gb40)" stroke-width="14" stroke-linecap="round"/>
+    <!-- かすれ表現 -->
+    <line x1="-145" y1="-15" x2="-135" y2="-15" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+    <line x1="-144" y1="5" x2="-136" y2="5" stroke="#FFFFFF" stroke-width="1.5" opacity="0.4"/>
+    <!-- D -->
+    <path d="M-108,42 L-108,-50 C-80,-55 -52,-28 -52,0 C-52,30 -80,46 -108,42" fill="none" stroke="url(#gb40)" stroke-width="5" stroke-linecap="round"/>
+    <!-- 縦棒を太く強調 -->
+    <path d="M-108,42 L-108,-50" fill="none" stroke="url(#gb40b)" stroke-width="10" stroke-linecap="round" opacity="0.3"/>
+    <!-- A — 鋭い -->
+    <path d="M-18,42 L22,-50 L62,42" fill="none" stroke="url(#gb40)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-5,12 L48,12" fill="none" stroke="url(#gb40)" stroke-width="7" stroke-linecap="round"/>
+    <!-- S — うねり+はね -->
+    <path d="M108,-32 C98,-52 72,-55 68,-35 C64,-12 108,-5 108,18 C108,45 75,50 62,35 C58,30 56,22 62,18" fill="none" stroke="url(#gb40)" stroke-width="5" stroke-linecap="round"/>
+    <!-- Sのはね -->
+    <path d="M62,18 C55,12 48,15 52,22" fill="none" stroke="url(#gb40)" stroke-width="2" stroke-linecap="round"/>
+    <!-- 全体に走るストローク（サイン） -->
+    <path d="M-325,58 C-200,52 50,62 120,48" fill="none" stroke="url(#gb40b)" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+  </g>
+</svg>

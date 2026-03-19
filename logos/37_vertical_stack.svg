@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="gb37" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A8DEF0"/>
+      <stop offset="25%" stop-color="#7EC8E3"/>
+      <stop offset="50%" stop-color="#4A9BD9"/>
+      <stop offset="75%" stop-color="#2B6CB0"/>
+      <stop offset="100%" stop-color="#1A365D"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+  <!-- バーティカルスタック — 1文字ずつ縦に並べる -->
+  <g transform="translate(400, 200)">
+    <text x="0" y="-140" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="52" font-weight="200" font-style="italic" letter-spacing="18" fill="url(#gb37)">U</text>
+    <text x="0" y="-88" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="52" font-weight="300" font-style="italic" letter-spacing="18" fill="url(#gb37)">M</text>
+    <text x="0" y="-36" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="52" font-weight="500" font-style="italic" letter-spacing="18" fill="url(#gb37)">I</text>
+    <text x="0" y="16" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="52" font-weight="600" font-style="italic" letter-spacing="18" fill="url(#gb37)">D</text>
+    <text x="0" y="68" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="52" font-weight="800" font-style="italic" letter-spacing="18" fill="url(#gb37)">A</text>
+    <text x="0" y="120" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="52" font-weight="900" font-style="italic" letter-spacing="18" fill="url(#gb37)">S</text>
+    <!-- 右サイドに縦グラデーションライン -->
+    <line x1="50" y1="-155" x2="50" y2="130" stroke="url(#gb37)" stroke-width="2" opacity="0.3"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gb36" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2B6CB0"/>
+      <stop offset="40%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#A8DEF0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- アヴァンギャルド — 文字の一部が欠けている/崩れている -->
+  <g transform="translate(400, 158)">
+    <!-- ベース文字 -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="110" font-weight="900" letter-spacing="4" fill="url(#gb36)">UMIDAS</text>
+    <!-- 文字を一部消す（白い矩形でマスク的に） -->
+    <!-- Uの右上を欠損 -->
+    <rect x="-295" y="-60" width="25" height="30" fill="#FFFFFF" transform="rotate(-15, -282, -45)"/>
+    <!-- Mの頂点を欠損 -->
+    <rect x="-195" y="-65" width="20" height="22" fill="#FFFFFF"/>
+    <!-- Dの右を欠損 -->
+    <rect x="-40" y="-10" width="22" height="35" fill="#FFFFFF" transform="rotate(5, -30, 5)"/>
+    <!-- Sの下を欠損 -->
+    <rect x="95" y="15" width="30" height="20" fill="#FFFFFF" transform="rotate(-8, 110, 25)"/>
+    <!-- 欠損から飛び散る粒子 -->
+    <circle cx="-278" cy="-52" r="3" fill="#7EC8E3" opacity="0.6"/>
+    <circle cx="-270" cy="-58" r="2" fill="#4A9BD9" opacity="0.4"/>
+    <circle cx="-188" cy="-60" r="2.5" fill="#7EC8E3" opacity="0.5"/>
+    <circle cx="-28" cy="2" r="3" fill="#4A9BD9" opacity="0.5"/>
+    <circle cx="118" cy="22" r="2" fill="#2B6CB0" opacity="0.4"/>
+    <circle cx="125" cy="30" r="3.5" fill="#7EC8E3" opacity="0.35"/>
+  </g>
+</svg>

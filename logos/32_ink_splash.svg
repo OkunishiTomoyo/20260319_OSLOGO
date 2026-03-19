@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gb32" x1="0%" y1="20%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#A8DEF0"/>
+      <stop offset="30%" stop-color="#7EC8E3"/>
+      <stop offset="70%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#1A365D"/>
+    </linearGradient>
+    <linearGradient id="gb32b" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7EC8E3" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2B6CB0" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- インクスプラッシュ — 墨が飛び散るような書体 -->
+  <g transform="translate(400, 150)">
+    <!-- 背景のインク飛沫 -->
+    <ellipse cx="-180" cy="30" rx="40" ry="8" fill="url(#gb32b)" transform="rotate(-12, -180, 30)"/>
+    <ellipse cx="60" cy="-45" rx="25" ry="6" fill="url(#gb32b)" transform="rotate(8, 60, -45)"/>
+    <circle cx="-280" cy="-20" r="4" fill="#7EC8E3" opacity="0.3"/>
+    <circle cx="120" cy="40" r="3" fill="#4A9BD9" opacity="0.25"/>
+    <circle cx="-100" cy="-50" r="5" fill="#7EC8E3" opacity="0.2"/>
+    <circle cx="90" cy="-30" r="2.5" fill="#2B6CB0" opacity="0.2"/>
+    <!-- メイン文字 — 太い筆で力強く -->
+    <!-- U -->
+    <path d="M-305,-45 C-308,0 -305,25 -290,35 C-275,42 -260,30 -258,-10 L-255,-45" fill="none" stroke="url(#gb32)" stroke-width="10" stroke-linecap="round"/>
+    <!-- M -->
+    <path d="M-228,38 L-225,-48 L-195,22 L-165,-48 L-162,38" fill="none" stroke="url(#gb32)" stroke-width="8" stroke-linecap="round" stroke-linejoin="bevel"/>
+    <!-- I -->
+    <path d="M-132,-48 L-130,38" fill="none" stroke="url(#gb32)" stroke-width="11" stroke-linecap="round"/>
+    <!-- D -->
+    <path d="M-95,38 L-95,-48 C-70,-52 -42,-32 -42,0 C-42,32 -70,42 -95,38" fill="none" stroke="url(#gb32)" stroke-width="8" stroke-linecap="round"/>
+    <!-- A -->
+    <path d="M-8,38 L28,-48 L64,38 M5,10 L50,10" fill="none" stroke="url(#gb32)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- S -->
+    <path d="M110,-30 C100,-50 72,-52 70,-32 C68,-8 112,-5 112,18 C112,42 78,48 65,32" fill="none" stroke="url(#gb32)" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

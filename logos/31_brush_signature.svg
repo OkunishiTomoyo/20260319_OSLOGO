@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gb31" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="45%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- ブラッシュシグネチャー — 筆で一気に書いたサイン風 -->
+  <g transform="translate(400, 155)">
+    <!-- U — 勢いのある筆ストローク -->
+    <path d="M-310,-40 C-310,-35 -312,20 -305,30 C-298,40 -280,42 -270,30 C-260,18 -258,-30 -255,-40" fill="none" stroke="url(#gb31)" stroke-width="7" stroke-linecap="round"/>
+    <!-- M — 鋭角な筆跡 -->
+    <path d="M-235,35 L-230,-42 L-205,18 L-180,-42 L-175,35" fill="none" stroke="url(#gb31)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- I — 力強い一画 + はね -->
+    <path d="M-150,-42 L-148,30 C-147,35 -142,38 -135,32" fill="none" stroke="url(#gb31)" stroke-width="7" stroke-linecap="round"/>
+    <!-- D — 太い筆で描くカーブ -->
+    <path d="M-110,35 L-110,-42 C-90,-45 -60,-30 -60,0 C-60,30 -90,38 -110,35" fill="none" stroke="url(#gb31)" stroke-width="6" stroke-linecap="round"/>
+    <!-- A — かすれ気味のA -->
+    <path d="M-30,35 L0,-42 L30,35 M-15,8 L15,8" fill="none" stroke="url(#gb31)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- S — うねるS -->
+    <path d="M85,-32 C75,-45 50,-48 48,-30 C46,-12 82,-10 82,12 C82,35 55,42 42,30" fill="none" stroke="url(#gb31)" stroke-width="6" stroke-linecap="round"/>
+    <!-- 筆の飛び散り -->
+    <circle cx="95" cy="-35" r="2" fill="#7EC8E3" opacity="0.5"/>
+    <circle cx="100" cy="-28" r="1.5" fill="#4A9BD9" opacity="0.4"/>
+    <!-- サイン風のアンダーストローク -->
+    <path d="M-320,52 C-200,48 50,55 110,42" fill="none" stroke="url(#gb31)" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  </g>
+</svg>

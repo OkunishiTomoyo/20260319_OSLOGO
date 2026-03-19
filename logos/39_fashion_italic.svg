@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gb39" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A8DEF0"/>
+      <stop offset="30%" stop-color="#7EC8E3"/>
+      <stop offset="60%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <linearGradient id="gb39b" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- ファッションイタリック — 極端な斜体+セリフ+グラデーション -->
+  <g transform="translate(400, 160)">
+    <!-- メイン文字（強いイタリック） -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Playfair Display', 'Georgia', serif" font-size="105" font-weight="700" font-style="italic" letter-spacing="8" fill="url(#gb39)">UMIDAS</text>
+    <!-- 上にヘアライン -->
+    <line x1="-290" y1="-62" x2="290" y2="-62" stroke="url(#gb39b)" stroke-width="0.8"/>
+    <!-- 下にヘアライン -->
+    <line x1="-290" y1="22" x2="290" y2="22" stroke="url(#gb39b)" stroke-width="0.8"/>
+    <!-- 装飾的なダッシュ -->
+    <line x1="-50" y1="-72" x2="50" y2="-72" stroke="url(#gb39b)" stroke-width="0.5"/>
+    <line x1="-50" y1="32" x2="50" y2="32" stroke="url(#gb39b)" stroke-width="0.5"/>
+  </g>
+</svg>

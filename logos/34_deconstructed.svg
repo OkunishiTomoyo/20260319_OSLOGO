@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="gb34a" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A8DEF0"/>
+      <stop offset="100%" stop-color="#4A9BD9"/>
+    </linearGradient>
+    <linearGradient id="gb34b" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+    <linearGradient id="gb34c" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A9BD9"/>
+      <stop offset="100%" stop-color="#1A365D"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="#FFFFFF"/>
+  <!-- デコンストラクト — 文字をバラバラの高さに配置、各文字が異なるグラデーション -->
+  <g transform="translate(70, 0)">
+    <!-- U — 上に配置 -->
+    <text x="60" y="110" font-family="'Montserrat', sans-serif" font-size="95" font-weight="800" font-style="italic" fill="url(#gb34a)">U</text>
+    <!-- M — やや下 -->
+    <text x="145" y="145" font-family="'Montserrat', sans-serif" font-size="95" font-weight="300" font-style="italic" fill="url(#gb34b)">M</text>
+    <!-- I — 真ん中高さ -->
+    <text x="265" y="125" font-family="'Montserrat', sans-serif" font-size="95" font-weight="900" font-style="italic" fill="url(#gb34a)">I</text>
+    <!-- D — 下に -->
+    <text x="310" y="175" font-family="'Montserrat', sans-serif" font-size="95" font-weight="400" font-style="italic" fill="url(#gb34c)">D</text>
+    <!-- A — 上に戻る -->
+    <text x="405" y="118" font-family="'Montserrat', sans-serif" font-size="95" font-weight="700" font-style="italic" fill="url(#gb34b)">A</text>
+    <!-- S — 最も下 -->
+    <text x="498" y="190" font-family="'Montserrat', sans-serif" font-size="95" font-weight="200" font-style="italic" fill="url(#gb34c)">S</text>
+  </g>
+  <!-- 下部ライン -->
+  <line x1="80" y1="230" x2="600" y2="230" stroke="#7EC8E3" stroke-width="1" opacity="0.3"/>
+  <text x="340" y="260" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#4A9BD9" letter-spacing="6" opacity="0.6">生 み 出 す</text>
+</svg>
