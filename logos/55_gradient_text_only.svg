@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220">
+  <defs>
+    <linearGradient id="gc55" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A3D9F5"/>
+      <stop offset="25%" stop-color="#89CFF0"/>
+      <stop offset="55%" stop-color="#5BA4D9"/>
+      <stop offset="100%" stop-color="#3B82C4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="220" fill="#FFFFFF"/>
+  <!-- テキストオンリー — freee/Sansan風のグラデーション文字ロゴ -->
+  <g transform="translate(400, 108)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', 'Rounded Mplus 1c', sans-serif" font-size="72" font-weight="800" letter-spacing="6" fill="url(#gc55)">UMIDAS</text>
+    <!-- 丸い「I」のドット -->
+    <circle cx="-17" cy="-52" r="7" fill="#89CFF0"/>
+    <!-- 白で元のIドットを消す -->
+    <rect x="-25" y="-60" width="16" height="12" fill="#FFFFFF"/>
+  </g>
+  <!-- タグライン -->
+  <text x="400" y="145" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" font-weight="400" letter-spacing="6" fill="#5BA4D9" opacity="0.55">心に余裕を生み出す</text>
+</svg>

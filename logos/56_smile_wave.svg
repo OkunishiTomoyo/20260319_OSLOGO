@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260">
+  <defs>
+    <linearGradient id="gc56" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#89CFF0"/>
+      <stop offset="50%" stop-color="#6BB8E8"/>
+      <stop offset="100%" stop-color="#3B82C4"/>
+    </linearGradient>
+    <linearGradient id="gc56w" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A3D9F5"/>
+      <stop offset="100%" stop-color="#5BA4D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="260" fill="#FFFFFF"/>
+  <!-- スマイルウェーブ — 笑顔に見えるU字+波（楽天/マネーフォワード風の親しみ） -->
+  <g transform="translate(400, 100)">
+    <!-- UMIDAS テキスト -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Nunito', 'Quicksand', sans-serif" font-size="68" font-weight="700" letter-spacing="8" fill="#2E75B6">UMIDAS</text>
+    <!-- 文字の下にスマイル風ウェーブ（笑顔の口のような弧） -->
+    <path d="M-195,22 C-140,48 -60,55 0,52 C60,48 140,38 195,22"
+          fill="none" stroke="url(#gc56w)" stroke-width="4" stroke-linecap="round"/>
+    <!-- 可愛い小さなドット（目のように見える位置） -->
+    <circle cx="-100" cy="-32" r="4.5" fill="url(#gc56)" opacity="0.5"/>
+    <circle cx="100" cy="-32" r="4.5" fill="url(#gc56)" opacity="0.5"/>
+  </g>
+  <!-- タグライン -->
+  <text x="400" y="195" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="11" letter-spacing="5" fill="#5BA4D9" opacity="0.6">心に余裕を生み出す</text>
+</svg>
